@@ -1,0 +1,15 @@
+touch .gitignore
+git config --global user.name itznimi003
+git config --global user.email "chouradiyanimisha2@gmail.com"
+git config --global user.name "itznimi003"
+git init
+git add .
+git commit -m "Initial commit"
+git status #just to see
+ssh-keygen -t rsa -b 4096 -C "my@emailaddress.com"
+tail <path to id_rsa.pub> #add this key to github
+cat /C/Users/"My PC"/.ssh/id_rsa.pub
+git remote add origin git@github.com:itznimi003/netflix-clone.git
+git remote add origin <ssh url.git>
+git push origin master
+
